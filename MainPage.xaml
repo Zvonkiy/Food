@@ -1,0 +1,31 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="FoodOrderApp.MainPage">
+
+    <StackLayout Padding="20">
+        <Label Text="Главное" 
+               FontSize="30" 
+               HorizontalOptions="Center" 
+               Margin="0,0,0,20"/>
+
+        <Button Text="Добавить Товар 1" 
+                Clicked="OnAddItemClicked" 
+                Margin="0,0,0,10"/>
+        <Button Text="Добавить Товар 2" 
+                Clicked="OnAddItemClicked" 
+                Margin="0,0,0,10"/>
+        <Button Text="Добавить Товар 3" 
+                Clicked="OnAddItemClicked" 
+                Margin="0,0,0,10"/>
+        <Button Text="Добавить Товар 4" 
+                Clicked="OnAddItemClicked" 
+                Margin="0,0,0,20"/>
+
+        <Button Text="Перейти в корзину" 
+                Clicked="OnGoToCartClicked"
+                HorizontalOptions="Center" />
+    </StackLayout>
+
+</ContentPage>
+
